@@ -1,0 +1,24 @@
+.course-container,.course-box{
+  flex : 1;
+  border : 1px solid black;
+  padding : 5%;
+}
+
+.add-button button,.add-student-button button{
+  position : absolute;
+  background : #A0CECB;
+  top : 0;
+  right : 0;
+  padding : 2%;
+  margin : 2%;
+  border-radius : 15px;
+  color: white;
+  font-weight : bold;
+}
+
+.search-bar{
+  padding : 2%;
+  float:left;
+  width : 300px;
+  text-align: center;
+}

@@ -1,0 +1,48 @@
+.navbar-container{
+  flex : 1;
+  max-width : 200px;
+  height : 100vh;
+  background-color :#3a3a3a;
+  padding : 2%;
+}
+
+.nav-routes{
+  display : block;
+}
+
+.nav-routes a{
+  display : flex;
+  padding : 2%;
+  justify-content: left;
+}
+
+a { 
+  color: white;; 
+}
+
+a:hover{
+  color : grey;
+}
+
+.nav-fa,.nav-text{
+  flex:1;
+  margin : auto;
+  text-align: left;
+}
+
+#banner-img{
+  width : 40px;
+  height : 50px;
+  border-radius : 25px;
+  margin : auto 5%;
+}
+
+#banner-text p{
+  text-align : left;
+}
+
+.banner{
+  background-color : #EBEBEB;
+  display : flex;
+  border-radius : 5px;
+}

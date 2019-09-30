@@ -1,0 +1,16 @@
+.form{
+  text-align : left;
+}
+
+.form-content{
+  display:flex;
+  padding : 2%;
+}
+
+.form-content h1, .form-content input{
+  flex : 1;
+}
+
+#class-form{
+  display : block;
+}

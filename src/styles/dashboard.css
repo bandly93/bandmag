@@ -1,0 +1,21 @@
+.dashboard-container,.dashboard-item {
+  display:flex;
+}
+
+.dashboard-item {
+  max-width:20vw;
+  padding : 2%;
+  margin : 2%;
+  border-radius : 15px;
+}
+
+.dashboard-container div{
+  flex:1;
+}
+
+.dashboard-fa{
+  opacity : 0.3;
+  float : right;
+  margin : auto;
+  padding : 2%;
+}
