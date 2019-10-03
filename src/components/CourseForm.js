@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addCourse,updateCourse } from '../redux/courseModule';
+import { closeModal } from '../redux/modalModule';
 import '../styles/form.css';
 
 const CourseForm = () => {
@@ -18,6 +19,7 @@ const CourseForm = () => {
     }else{
       dispatch(addCourse(courseName))
     }
+    dispatch(closeModal())
   }
 
   const renderTitle = () => {

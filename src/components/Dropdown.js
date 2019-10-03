@@ -8,7 +8,7 @@ import '../styles/dropdown.css';
 const Dropdown = ({courses}) => {
 
   const dispatch = useDispatch();
-  const [drawerOpen,toggleDrawer] = useState(false);
+  const [ drawerOpen,toggleDrawer ] = useState(false);
 
   const handleClick = (i) => {
     dispatch(updateIndex(i));

@@ -8,7 +8,7 @@ import '../styles/dashboard.css';
 const Dashboard = () => {
 
   const { courses } = useSelector(state=>state.courses);
-  const [studentCount] = useState(countStudents(courses)); 
+  const [ studentCount ] = useState(countStudents(courses)); 
   
   return (
     <div className = 'dashboard-container'>
